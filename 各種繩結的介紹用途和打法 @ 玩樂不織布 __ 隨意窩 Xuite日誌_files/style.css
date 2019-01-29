@@ -1,0 +1,839 @@
+/* CSS Document */
+/*主體*/
+html{}
+body{  
+	margin:0px;
+    text-align: center;
+	background-color:#efefef;
+	background-attachment:fixed;
+	background-repeat:repeat;
+	color:#666666;
+	font-family:Verdana, Geneva, sans-serif;
+}
+ul {padding:0px;margin:0px;}
+li {list-style-position:inside;}
+h1, h2, h3 { padding:0px;margin:0px; font-weight:normal;}
+	   
+/*連結*/
+a {
+	color: #999966;
+	text-decoration: none;
+}
+a:link {
+	color:#663300;
+	text-decoration:none;
+}
+a:visited {
+	color:#663300;
+	text-decoration:none;
+}
+a:active {
+	color:#663300;
+	text-decoration:underline;
+}
+a:hover {
+	color: #663300;
+	text-decoration:underline;
+}
+
+/*定位框*/
+#wrap{}
+#container {
+	position:relative;
+	text-align: left;
+	width:985px;
+	padding:0px;
+	margin:0px auto;
+	overflow:hidden;
+	background-image: url(http://s.blog.xuite.net/_image/skin/background/406/container_bg.gif);
+	background-repeat: repeat-y;
+	background-position: center;
+}
+	   
+/*檔頭*/
+#banner{
+	margin: 0px;
+	padding: 0px;
+	height: 200px;
+	background:url(http://s.blog.xuite.net/_image/skin/background/406/title_gold.jpg) no-repeat center top;
+	display:block;
+}
+
+/*左欄*/
+#linksLeft{
+	left:0px;
+	width: 210px;
+	margin: 0px 0px 0px 15px;
+	float:left;
+	display:inline;
+	padding-top: 5px;
+}
+ 
+/*右欄*/
+#linksRight{display:none;}
+	
+/*中間欄*/
+#mid{
+	width:710px;
+	float:right;
+	margin-right:10px;
+	display:inline;
+	padding-right: 15px;
+}
+
+/*檔尾*/
+#footer{
+	clear: both;
+	text-align:center;
+	font-size: 12px;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	line-height: 16px;
+	bottom:0px;
+	height:80px;
+	padding-top:30px;
+	background-image: url(http://s.blog.xuite.net/_image/skin/background/406/footer_bg_gold.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*欄位名稱*/
+.sidetitle{
+	padding:8px 0px 0px 28px;
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing:0.1em;
+	font-size:12px;
+	height: 26px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image: url(http://s.blog.xuite.net/_image/skin/background/406/subtitle.gif);
+	margin: 0px;
+}
+
+/*欄位內容*/
+.side{
+	font-size:12px;
+	font-weight:normal;
+	line-height:140%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+.side li{                                              
+	margin-left: 20px;
+	list-style-position: outside;
+}
+
+/*空白*/
+.spacer{clear:both;}
+/******************************************/
+/*檔頭class*/
+
+/*日誌名稱*/
+.blogname{
+	font-size: 18px;
+	font-weight: bold;
+	padding-left:325px;
+	padding-top:65px;
+	color: #FFFFFF;
+	width: 500px;
+}
+.blogname a:link{ color:#ffffff;}
+.blogname a:visited{ color:#ffffff;}
+.blogname a:hover{ color:#ffffff;}
+
+/*今日心情*/
+.blogemotion{}
+
+/*日誌描述*/
+.description{
+	font-size: 12px;
+	color: #FFFFFF;
+	padding-left:325px;
+	width: 500px;
+	padding-top: 0px;
+}
+
+/*選單列*/
+.menulist{
+	padding-top:15px;
+	width:100%;
+	height:10px;
+}
+
+/*選單*/
+.menu{
+	color: #669900;
+	margin-top: 151px;
+	margin-left: 345px;
+	position: absolute;
+}
+.menu a:link{color:#669900;}
+.menu a:visited{color:#669900;}
+.menu a:hover{color:#669900;}
+
+/*Logo*/
+.logo{
+	visibility:visible;
+	margin-top: 10px;
+	float: right;
+}
+
+/******************************************/
+/*中間欄位class*/
+
+/*文章外框*/
+#content{
+	padding: 0px;
+	margin: 0px;
+	background-color:#ffffff;
+}
+
+/*文章標題列*/
+.title{
+	width:100%;
+	height:60px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image: url(http://s.blog.xuite.net/_image/skin/background/406/title_06.jpg);
+}
+
+/*文章標題名稱*/
+span.titlename{
+	font-size:12px;
+	color:#cf7e69;
+	font-weight:normal;
+	float: left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 20px 0px 0px 0px;
+	padding: 3px 7px 3px 7px;
+	background-color: #FFFFCC;
+	border-right: 1px #dddddd solid;
+	border-top: 1px #dddddd solid;
+	border-bottom: 1px #dddddd solid;
+}
+
+/*文章日期*/ 
+span.titledate{
+	float:left;
+	font-weight:normal;
+	font-size: 12px;
+	color: #999999;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 20px 0px 0px 65px;
+	padding: 2px 4px 4px 4px;
+	border: 1px #dddddd solid;
+}
+
+/*文章評價列*/
+.blogrank{
+	width:100%;
+	line-height:200%;
+	margin-top:5px;
+	color:#636363;
+	background-color: #f5f5f5;
+	border-bottom: 1px #dddddd dashed;
+}
+
+/*文章瀏覽數*/
+span.counter{
+    background:url(http://s.blog.xuite.net/_image/skin/list/bulletCounter.gif) no-repeat;
+    float:right;
+    margin:5px;
+    padding:2px 0px 0px 20px;
+    width:auto;
+	color: #999999;
+}
+
+/*文章分類*/
+span.category{
+	background:url(http://s.blog.xuite.net/_image/skin/list/bulletContentArticle.gif) no-repeat;
+	float:right;
+	margin:5px;
+	width:auto;
+	padding:2px 0px 0px 20px;
+}
+
+/*文章標籤*/
+.tags{}
+.tags a:link{color:#936f4a;}
+.tags a:visited{color:#936f4a;}
+.tags a:hover{color:#999999;}
+
+/*文章主體*/
+.blogbody{
+	word-wrap: break-word;
+	width:97%;
+	overflow:hidden;
+	color:#666666;
+	line-height:20px;
+	font-size:12px;
+	background-color: #fafafa;
+	padding: 10px;
+}
+
+/*作者列*/
+.posted{
+	width:100%;
+	text-align:right;
+	font-size:12px;
+	clear:both;
+	border-top:1px #dddddd dashed;
+	padding-top:5px;
+}
+
+/*上下文章*/
+.selectbar{
+	width:100%;
+	text-align:right;
+	font-size:12px;
+}
+
+/*引用列*/
+.trackbacktitle{
+	position:relative;
+	width:100%;
+	margin-top:20px;
+	margin-bottom:5px;
+	font-size: 12px;
+	color: #CC6600;
+	height:24px;
+	background:#f5f5f5;
+}
+
+/*引用網址*/
+.trackbackurl{
+	width:100%;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-indent:10px;
+}
+
+/*引用日期*/
+.trackbackdate{
+	width:100%;
+	text-align:right;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #7A75B9;
+}
+
+/*引用內容*/
+.trackbackcontent{
+	width:100%;
+	line-height:150%;
+	margin-top:5px;
+	border-bottom:1px dotted #cccccc;
+}
+
+/*留言列*/
+.comment{
+	width:100%;
+	font-size: 12px;
+	color: #CC6600;
+	height:24px;
+	margin-top:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background:#f5f5f5;
+}
+
+/*留言名稱*/
+span.commenttitle{
+	padding:6px 0px 2px 20px;
+    background:url(http://s.blog.xuite.net/_image/skin/list/bulletMessageList.gif) no-repeat;
+    width:auto;
+}
+
+/*留言按鈕*/
+span.commentbutton{float:right;}
+
+/*留言作者列*/
+.author{width:100%;}
+
+/*留言作者名稱*/
+span.authorname{}
+
+/*留言日期*/
+span.commentdate{
+	float:right;
+	text-align:right;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #7A75B9;
+}
+
+/*留言內容*/
+.commenttext{
+    word-wrap: break-word;
+	width:100%;
+	margin-top:10px;
+	margin-bottom:10px;
+	line-height:18px;
+}
+
+/*留言編輯按鈕*/
+.commentedit{
+	width:100%;
+	border-bottom:1px #dddddd dashed;
+}
+
+/*留言者信箱*/
+span.email{}
+
+/*瀏覽方式切換*/
+.ArticleShowMode {margin-bottom:10px;}
+
+/*列表模式 */
+.singleArticle{
+	margin-bottom: 20px;
+}
+.singleArticle ul{ padding-left:20px;}
+.singleArticle li{ 
+   list-style-position:inherit;
+   line-height:200%;
+}
+
+/******************************************/
+/*左欄class*/
+/*關於我*/
+/*.avatar{  
+	font-size:12px;
+	font-weight:normal;
+	line-height:140%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+*/
+/* 2009/09 新 關於我 區塊 */
+#avatarContent {width:99%;text-align:center;display:block;word-break:break-all ;}
+#avatarAddMe {width:96px;height:2em;margin:0 auto;}
+#avatarAddMe img {float:left;}
+#personalLink {height:6em;width:94px;padding:0px; margin:10px auto;display:block;}
+#personalLink li {list-style-type:none;float:left;height:1.7em;margin:0 4px 0 0;padding:2px 0 0 16px;width:auto;display:block;}
+#personalLink li img {margin:1px 2px 0px 0px;vertical-align:top;}
+li.pblog{background:url(http://img.xuite.net/portal/common/icons/blog.gif) no-repeat center left;}
+li.pphoto{background:url(http://img.xuite.net/portal/common/icons/photo.gif) no-repeat center left;}
+li.pvlog{background:url(http://img.xuite.net/portal/common/icons/vlog.gif) no-repeat center left;}
+li.pboard{background:url(http://img.xuite.net/portal/common/icons/gbook.gif) no-repeat center left;}
+li.pfriend{background:url(http://img.xuite.net/portal/common/icons/friend.gif) no-repeat center left;}
+li.plink{background:url(http://img.xuite.net/portal/common/icons/card.gif) no-repeat center left;}
+
+/*照片*/
+.avatarPhoto{text-align:center;}
+
+/*帳號*/
+.avatarID{display:none;}
+
+/*我的描述*/
+.avatarDesciption{
+	color:#7f7f7f;
+	word-wrap:break-all;
+	overflow:hidden;
+	width: 170px;
+}
+
+/*關於我按鈕*/
+.avatarbutton{}
+
+/*文章分類*/
+.categoryTitle{}
+.categorySide li{list-style-image:url(http://s.blog.xuite.net/_image/blogIcon19.gif);}
+.categorySide{}
+
+/*日曆*/
+.calendarTitle{}
+.calendarSide li{list-style-image:url(http://s.blog.xuite.net/_image/blogIcon19.gif);}
+.calendarSide{}
+
+/*日曆table*/
+.calMonth{width:92%;}
+
+/*日曆首列*/
+.calMonthNav{}
+
+/*日曆上個月*/
+.calMonthBackward{}
+
+/*日曆目前顯示年月*/
+.calMonthCurrent{
+    font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+}
+
+/*日曆下個月*/
+.calMonthForward{
+    color: #FF0000;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+}
+
+/*日曆星期列*/
+.calMonthHeader{}
+
+/*日曆日欄*/
+.calMonthDay{
+    font-size: 10px;
+	color: #ccc;
+	text-align:center;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+}
+
+/*日曆今日日期*/
+.calMonthToday{
+    font-size: 11px;
+    text-align:center;
+}
+
+/*日曆假日日期*/
+.calholiday{
+	font-size: 11px;
+	color: #FF3300;
+	text-align:center;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+}
+.calendarbutton{text-align:right;}
+
+/*搜尋文章*/
+.searchTitle{}
+.searchSide{text-align:center;}
+.searchbutton{
+	text-align:center;
+	padding:2px;
+}
+
+/*我的哈拉室*/
+.chatTitle{}
+.chatSide{}
+
+/*已建立的日誌*/
+.bloglistTitle{}
+.bloglistSide li{list-style-image:url(http://s.blog.xuite.net/_image/blogIcon19.gif);}
+.bloglistSide{}
+
+/*訂閱電子報*/
+.epaperTitle{}
+.epaperSide{text-align:center;}
+.epaperbutton{
+	text-align:center;
+	padding:2px;
+}
+
+/*自由欄位*/
+.customTitle{}
+.customSide{}
+
+/*日誌使用資源*/
+.resourceTitle{}
+.resourceSide{text-align:center;}
+
+/*留言塗鴉版*/
+.paintTitle{}
+.paintSide{text-align:center;}
+
+/******************************************/
+/*右欄class*/
+/*背景音樂*/
+.musicTitle{}
+.musicSide{}
+.musicbutton{
+	text-align:left;
+	padding:2px;
+}
+
+/*最新文章*/
+.articleTitle{}
+.articleSide li{list-style-image:url(http://s.blog.xuite.net/_image/blogIcon19.gif);}
+.articleSide{}
+
+/*最新留言*/
+.messageTitle{}
+.messageSide{}
+.date {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #7A75B9;
+}
+
+/*參觀人次統計*/
+.countTitle{}
+.countSide{}
+
+/*我的訂閱*/
+.rssrollTitle{}
+.rssrollSide li{list-style-image:url(http://s.blog.xuite.net/_image/blogIcon19.gif);}
+.rssrollSide{}
+.backbtn li{list-style-image:url(http://s.blog.xuite.net/_image/blog038.gif);}
+.backbtn{text-align:right;}
+.morebtn{
+    background:url(http://s.blog.xuite.net/_image/blog037.gif) no-repeat;
+    width:auto;
+    padding-left:20px;
+    float:right;
+}
+
+/*日誌評價*/
+.rankTitle{}
+.rankSide{}
+
+/*已建立的相簿*/
+.albumTitle{}
+.albumSide{}
+
+/*最愛連結*/
+.linkTitle{}
+.linkSide li{list-style-image:url(http://s.blog.xuite.net/_image/blogIcon19.gif);}
+.linkSide{}
+
+/*個人項目---- 2006-5-11 Modify*/
+.personallink{
+	display: block;
+	width:170px;
+	margin:0px;
+}
+
+/*關於我*/
+.plink ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px 2px 0px 20px;
+	word-wrap: break-word; 
+	display: block; 
+	float:left; 
+}
+.plink li{ 
+	padding:0px;
+	margin:0px;
+	list-style-image:url(http://s.blog.xuite.net/_image/blogIcon19.gif);
+}
+.plink{
+	padding:0px;
+	width: 90px;
+}
+
+/*我的相簿*/
+.pphoto ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px 2px 0px 20px;
+	word-wrap: break-word; 
+	display: block; 
+	float:left; 
+}
+.pphoto li{ 
+	padding:0px;
+	margin:0px;
+	list-style-image:url(http://s.blog.xuite.net/_image/blogIcon19.gif);
+}
+.pphoto{
+	padding:0px;
+	width: 90px;
+}
+
+/*我的影音*/
+.pvlog ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px 2px 0px 20px;
+	word-wrap: break-word; 
+	display: block; 
+	float:left; 
+}
+.pvlog li{ 
+	padding:0px;
+	margin:0px;
+	list-style-image:url(http://s.blog.xuite.net/_image/blogIcon19.gif);
+}
+.pvlog{
+	padding:0px;
+	width: 90px;
+}
+
+/*加入好友*/
+.pfriend ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px 2px 0px 20px;
+	word-wrap: break-word; 
+	display: block; 
+	float:left; 
+}
+.pfriend li{ 
+	padding:0px;
+	margin:0px;
+	list-style-image:url(http://s.blog.xuite.net/_image/blogIcon19.gif);
+}
+.pfriend{
+	padding:0px;
+	width:90px;
+}
+
+/*我的留言板*/
+.pboard ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px 2px 0px 20px;
+	word-wrap: break-word; 
+	display: block; 
+	float:left; 
+}
+.pboard li{ 
+	padding:0px;
+	margin:0px;
+	list-style-image:url(http://s.blog.xuite.net/_image/blogIcon19.gif);
+}
+.pboard{
+	padding:0px;
+	width: 90px;
+}
+
+/*文章分類---- 2006-5-12 Modify*/
+.pTitle{}	
+
+/*欄位名稱---- 2006-5-12 Modify*/
+/*
+.personaltitle{
+	padding:8px 0px 0px 28px;
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing:0.1em;
+	font-size:12px;
+	height: 26px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image: url(http://s.blog.xuite.net/_image/skin/background/406/subtitle.gif);
+	margin: 0px;
+}	
+*/
+/*下方換頁-----2007-04-02*/
+.page {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: #7f7e52;
+	line-height: 24px;
+	vertical-align:middle;
+}
+.page a:link, .page a:visited, .page a:active {
+	font-size: 12px;
+	color: #4D4C1E;
+	line-height: 24px;
+	text-decoration: none;
+}
+.page a:hover {
+	font-size: 12px;
+	color: #7f7e52;
+	line-height: 24px;
+	text-decoration: underline;
+}
+
+/*留言回覆邊框*/
+.reply_info{
+	width: 90%;
+	border: 1px #dddddd dashed;
+	padding: 1.2em 1.2em;
+	margin: 1.2em;
+}
+
+/*我的好友&我的好友樹*/
+.friendTitle{}
+.LoveFriendSide{text-align: center;}
+.LoveFriendSide select{
+	color: #666666;
+	font-size: 11px;
+}
+
+/*最愛日誌*/
+.LoveBlogTitle{}
+.LoveBlogSide{text-align:center;}
+.LoveBlogSide select{
+	color: #666666;
+	font-size: 11px;
+}
+
+/*好文轉寄*/
+span.mail{
+    background:url(http://s.blog.xuite.net/_image/skin/list/email_forward.gif) no-repeat;
+    float:right;
+    margin-top:5px;
+    padding:2px 0px 0px 20px;
+    width:auto;
+}
+
+/*我的發燒文*/
+.hotArticleTitle {}
+
+/*我的親友團*/
+.myChannelTitle {}
+.gText{color: #838383;}
+.rank{color: #838383; float:left;}
+
+/*日誌背景音樂*/
+.BackgroundMusicTitle{}
+
+/*我的留言板*/
+.gbookTitle{}
+
+/*誰拜訪過我*/
+#visitorTitle{}
+
+/* 2009/08 相關文章 */
+.articleExt {
+	clear:both;
+	padding-top:10px;
+}
+
+/* 2009/09 推推 bookmark 區塊 */
+.bookmark{float:right;}
+
+/*隨機推薦文章*/
+.ArticleRandomSide{}
+
+/*相關文章*/
+#ArticleRelateSide{}
+
+/*服務切換tab*/
+#service-list{
+	position: absolute;
+	width: 300px;
+	left: 670px;
+	top: 163px;
+}
+#service-list .service-item{
+	display:block;
+	float:left;
+	list-style-type:none;
+	cursor:pointer;
+	background:transparent;
+	margin: 0px 0px 0px 20px;
+	color: #FFFFFF;
+}
+#service-list .service-link { 
+	display:inline-block;
+	color:#ffffff;
+	text-decoration:none;
+}
+#service-blog .service-link {}
+#service-blog .service-link:hover {}
+#service-photo .service-link {}
+#service-photo .service-link:hover {}
+#service-vlog .service-link {}
+#service-vlog .service-link:hover {}
+#service-gbook .service-link {}
+#service-gbook .service-link:hover {}
+#service-friend .service-link {}
+#service-friend .service-link:hover {}
+#service-card .service-link {}
+#service-card .service-link:hover {}
+#service-list a{background:none;}
+
+/* 2009/09 新 回應 區塊 */
+#commentSide{margin:4px 0px 4px 8px;padding:0px;}
+li.commentBox {list-style-type:none;margin-left: 0px !important;margin-bottom: 5px;height:36px;text-indent:0 !important;}
+li.commentBox img{width:32px;height:32px;border-style:solid;border-color:gray;border-width:1px;float:left;}
+li.commentBox .content {margin-left: 36px;}
+div.commentBody{font-size:1.2em;width:140px;overflow:hidden;text-overflow: ellipsis;white-space:nowrap;}
+div.commentAuthor{font-size:0.8em;width:140px;overflow:hidden;text-overflow: ellipsis;white-space:nowrap;}

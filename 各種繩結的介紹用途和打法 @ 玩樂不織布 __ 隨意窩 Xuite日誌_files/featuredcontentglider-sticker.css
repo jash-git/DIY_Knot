@@ -1,0 +1,96 @@
+.glidecontentwrapper {
+	position: relative; /* Do not change this value */
+	width: 168px;
+	height: 195px; /* Set height to be able to contain height of largest content shown*/
+	border: 0px solid #b7dce2;
+	overflow: hidden;
+	background: #ffffff;
+	margin: 5px;
+	padding: 0px;
+}
+/*
+	Total wrapper width: 350px+5px+5px=360px
+	Or width of wrapper div itself plus any left and right CSS border and padding
+	Adjust related containers below according to comments
+*/
+
+
+/*圖片和說明*/
+
+.glidecontent{ /*style for each glide content DIV within wrapper.*/
+position: absolute; /* Do not change this value */
+background: url(http://img.xuite.net/portal/blog/default/images/event/sticker_bg.jpg) #ffffff;
+padding: 0px;
+visibility: hidden;
+border:0px solid #000000; 
+width:168px; /*外框178px,去左右5px*/
+font-size:12px; 
+line-height:18px;
+color:#333333;
+font-family:"Times New Roman", Times, serif;
+}
+
+/*
+ Total glidecontent width: 330px+10px+10px=350px
+	Or width of wrapper div itself (not counting wrapper border/padding)
+*/
+
+.glidecontenttoggler{ /*style for DIV used to contain toggler links. */
+border: 0px solid black;
+margin-top: 0px;
+text-align: center; /*How to align pagination links: "left", "center", or "right"
+background: white; /*always declare an explicit background color for fade effect to properly render in IE*/
+width: 178px;
+}
+/*
+ Total contenttoggler width: 350px+5px+5px=360px
+	Or total width of wrapper div (counting wrapper border/padding)
+*/
+
+.glidecontenttoggler a{ /*style for every navigational link within toggler */
+display: -moz-inline-box;
+display: inline-block;
+border: 0px solid black;
+color: #2e6ab1;
+padding: 1px 3px;
+margin-right: 3px;
+font-weight: bold;
+text-decoration: none;
+}
+
+/*style for selected page's toggler link. ".selected" class auto generated! */
+/*
+.glidecontenttoggler a.selected{
+background: #e4effa;
+color: black;
+}
+
+.glidecontenttoggler a:hover{
+background: #e4effa;
+color: black;
+}
+*/
+
+.glidecontenttoggler a.toc{ /*style for individual toggler links (page 1, page 2, etc). ".toc" class auto generated! */
+}
+
+/*style for "prev" and "next" toggler links. ".prev" and ".next" classes auto generated! */
+.glidecontenttoggler a.prev{
+
+}
+
+
+.glidecontenttoggler a.next{ 
+
+}
+
+.glidecontenttoggler a.more{ 
+
+}
+
+/*
+.glidecontenttoggler a.prev:hover, .glidecontenttoggler a.next:hover{
+background: #1A48A4;
+color: white;
+}
+*/
